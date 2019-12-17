@@ -1,0 +1,21 @@
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.apalah{
+  background-color: #8B0000;
+}
+
+.yayaya{
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 8px
+}
