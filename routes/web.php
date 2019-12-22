@@ -14,9 +14,9 @@
 // use Illuminate\Routing\Route;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('beranda');
-});
+//Route::get('/', function () {
+//    return view('beranda');
+//});
 Route::get('/login', 'AuthController@login')->name('login');
 Route::post('/postlogin', 'AuthController@postlogin');
 Route::get('/logout', 'AuthController@logout');
@@ -33,7 +33,7 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {       
 });
 Route::group(['middleware' => ['auth', 'checkRole:wisata']], function () {               //'auth' -> apakah user sudah login apa belum
 
-    Route::get('/beranda', 'BerandaController@index');
+    Route::get('/', 'BerandaController@index')->name('pengguna.beranda');
 
 
 });
