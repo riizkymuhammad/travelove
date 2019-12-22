@@ -31,9 +31,5 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {       
     Route::get('/wisata/{id}/delete', 'WisataController@delete');
     Route::get('/wisata/{id}/profilewisata', 'WisataController@profilewisata');
 });
-Route::group(['middleware' => ['auth', 'checkRole:wisata']], function () {               //'auth' -> apakah user sudah login apa belum
 
-    Route::get('/', 'BerandaController@index')->name('pengguna.beranda');
-
-
-});
+    Route::get('/', 'BerandaController@index')->name('beranda');
