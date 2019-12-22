@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 namespace App\Http\Controllers;
 
@@ -7,6 +7,6 @@ use Illuminate\Support\facades\DB;
 
 class berandacontroller extends Controller {
 	public function index(){
-		return view('pengguna.beranda');
+		return view('beranda');
 	}
 }
