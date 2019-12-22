@@ -43,21 +43,21 @@
     </ol>
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below -->
-      <div class="carousel-item active" style="background-image: url('{{ asset('/img/parangtritis2.jpg') }}')">
+      <div class="carousel-item active" style="background-image: url('admin/parangtritis2.jpg')">
         <div class="carousel-caption d-none d-md-block">
           <h3 class="display-4">Parangtritis</h3>
           <p class="lead">Menikmati indahnya matahari terbenam di Pantai Parangtritis</p>
         </div>
       </div>
       <!-- Slide Two - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('{{ asset('/img/prambanan.jpg') }}')">
+      <div class="carousel-item" style="background-image: url('admin/prambanan.jpg')">
         <div class="carousel-caption d-none d-md-block">
           <h3 class="display-4">Prambanan</h3>
           <p class="lead">Sejarah yang tak terlupakan di Prambanan Yogyakarta</p>
         </div>
       </div>
       <!-- Slide Three - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('{{ asset('/img/kulinerjgj.jpg') }}')">
+      <div class="carousel-item" style="background-image: url('admin/kulinerjgj.jpg')">
         <div class="carousel-caption d-none d-md-block">
           <h3 class="display-4">Berbagai Makanan Khas</h3>
           <p class="lead">Temukan makanan dan oleh-oleh khas sekaligus melakukan liburan berasama</p>
@@ -159,7 +159,7 @@
       </div>
       <!-- DEMO 3 Item    -->
       <div class="col-lg-6">
-        <div class="hover hover-3 text-white rounded" style="background-image: url('{{ asset('/img/affandi.jpg') }}')">>
+        <div class="hover hover-3 text-white rounded" style="background-image: url('admin/affandi.jpg')">>
           <div class="hover-overlay"></div>
           <div class="hover-3-content px-5 py-4">
             <h3 class="hover-3-title text-uppercase font-weight-bold mb-1"><span class="font-weight-light">Museum </span>Affandi</h3>
@@ -216,7 +216,7 @@
       </div>
       <!-- DEMO 3 Item    -->
       <div class="col-lg-6">
-        <div class="hover hover-3 text-white rounded" style="background-image: url('{{ asset('/img/malioboro2.jpg') }}')">>
+        <div class="hover hover-3 text-white rounded" style="background-image: url('admin/malioboro2.jpg')">>
           <div class="hover-overlay"></div>
           <div class="hover-3-content px-5 py-4">
             <h3 class="hover-3-title text-uppercase font-weight-bold mb-1"><span class="font-weight-light">Malioboro </span>Jogja</h3>
