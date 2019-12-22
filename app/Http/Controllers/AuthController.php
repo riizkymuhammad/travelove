@@ -15,7 +15,7 @@ class AuthController extends Controller
     public function postlogin(Request $request)
     {
         if(Auth::attempt($request->only('email','password'))){ //jika email dan password sudah benar maka akan masuk ke halaman dashboard
-            return redirect('/dashboard');
+            return redirect('/wisata');
         }
         return redirect('/login');
     }

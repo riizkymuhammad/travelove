@@ -18,10 +18,10 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{ route('login') }}">Beranda <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pemesanan</a>
+        <a class="nav-link" href="{{ route('daftar') }}">Pemesanan</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Porfil</a>
