@@ -9,6 +9,10 @@
   
 }
 
+.oke{
+  background-color:#FFB6C1;
+}
+
 .apalah{
   background-color: white;
 }
@@ -326,4 +330,8 @@
 body {
   min-height: 100vh;
   background-color: #f4f4f4;
+}
+
+.yow{
+  background-color: #FFB6C1;
 }
