@@ -18,10 +18,10 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{ route('login') }}">Beranda <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pemesanan</a>
+        <a class="nav-link" href="{{ route('daftar') }}">Pemesanan</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Porfil</a>
@@ -92,7 +92,7 @@
     <div class="row">
       <!-- DEMO 1 Item-->
       <div class="col-lg-6 mb-3 mb-lg-0">
-        <div class="hover hover-1 text-white rounded"style="background-image: url('{{ asset('/img/gudeg.jpg') }}')">
+        <div class="hover hover-1 text-white rounded"style="background-image: url('admin/gudeg.jpg')">
           <div class="hover-overlay"></div>
           <div class="hover-1-content px-5 py-4">
             <h3 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span class="font-weight-light">Gudeg </span>Jogja</h3>
@@ -102,7 +102,7 @@
       </div>
       <!-- DEMO 1 Item-->
       <div class="col-lg-6">
-        <div class="hover hover-1 text-white rounded"style="background-image: url('{{ asset('/img/kulinerjgj.jpg') }}')">
+        <div class="hover hover-1 text-white rounded"style="background-image: url('admin/kulinerjgj.jpg')">
           <div class="hover-overlay"></div>
           <div class="hover-1-content px-5 py-4">
             <h3 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span class="font-weight-light">Oleh-Oleh </span>Jogja</h3>
@@ -120,7 +120,7 @@
     <div class="row">
       <!-- DEMO 2 Item-->
       <div class="col-lg-6 mb-3 mb-lg-0">
-        <div class="hover hover-2 text-white rounded"style="background-image: url('{{ asset('/img/bukitbintang.jpg') }}')">
+        <div class="hover hover-2 text-white rounded"style="background-image: url('admin/bukitbintang.jpg')">
           <div class="hover-overlay"></div>
           <div class="hover-2-content px-5 py-4">
             <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span class="font-weight-light">Bukit </span>Bintang</h3>
@@ -131,7 +131,7 @@
 
       <!-- DEMO 2 Item-->
       <div class="col-lg-6">
-        <div class="hover hover-2 text-white rounded"style="background-image: url('{{ asset('/img/pintulawu.jpg') }}')">
+        <div class="hover hover-2 text-white rounded"style="background-image: url('admin/pintulawu.jpg')">
           <div class="hover-overlay"></div>
           <div class="hover-2-content px-5 py-4">
             <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span class="font-weight-light">Pintu </span>Lawu</h3>
@@ -149,7 +149,7 @@
     <div class="row">
       <!-- DEMO 3 Item-->
       <div class="col-lg-6 mb-3 mb-lg-0">
-        <div class="hover hover-3 text-white rounded"style="background-image: url('{{ asset('/img/prambanan.jpg') }}')">
+        <div class="hover hover-3 text-white rounded"style="background-image: url('admin/prambanan.jpg')">
           <div class="hover-overlay"></div>
           <div class="hover-3-content px-5 py-4">
             <h3 class="hover-3-title text-uppercase font-weight-bold mb-1"><span class="font-weight-light">Candi </span>Prambanan</h3>
@@ -177,7 +177,7 @@
     <div class="row">
       <!-- DEMO 4 Item-->
       <div class="col-lg-6 mb-3 mb-lg-0">
-        <div class="hover hover-4 text-white rounded"style="background-image: url('{{ asset('/img/Parangtritis.jpg') }}')">
+        <div class="hover hover-4 text-white rounded"style="background-image: url('admin/Parangtritis.jpg')">
           <div class="hover-overlay"></div>
           <div class="hover-4-content">
             <h3 class="hover-4-title text-uppercase font-weight-bold mb-0"><span class="font-weight-light">Pantai </span>Parangtritis</h3>
@@ -187,7 +187,7 @@
       </div>
       <!-- DEMO 4 Item            -->
       <div class="col-lg-6">
-        <div class="hover hover-4 text-white rounded"style="background-image: url('{{ asset('/img/lavatour.jpg') }}')">>
+        <div class="hover hover-4 text-white rounded"style="background-image: url('admin/lavatour.jpg')">>
           <div class="hover-overlay"></div>
           <div class="hover-4-content">
             <h3 class="hover-4-title text-uppercase font-weight-bold mb-0"><span class="font-weight-light">Merapi Lava </span>Tour</h3>
@@ -206,7 +206,7 @@
     <div class="row">
       <!-- DEMO 3 Item-->
       <div class="col-lg-6 mb-3 mb-lg-0">
-        <div class="hover hover-3 text-white rounded"style="background-image: url('{{ asset('/img/wisatamalam.jpg') }}')">
+        <div class="hover hover-3 text-white rounded"style="background-image: url('admin/wisatamalam.jpg')">
           <div class="hover-overlay"></div>
           <div class="hover-3-content px-5 py-4">
             <h3 class="hover-3-title text-uppercase font-weight-bold mb-1"><span class="font-weight-light">Alun-Alun </span>Jogja</h3>

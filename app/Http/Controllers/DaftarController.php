@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace App\Http\Controllers;
 
@@ -7,19 +7,19 @@ use Illuminate\Support\facades\DB;
 
 class daftarcontroller extends Controller {
 	public function index(){
-		return view('daftar');
+		return view('auth.register');
 	}
 		public function proses(Request $request){
 		DB::table('user')->insert([
 		'name' => $request->name,
 		'ktp' => $request->ktp,
-		'date' => $request->date,
-		'alamat' => $request->alamat,
+		'tgllahir' => $request->date,
+		'alamatu' => $request->alamat,
 		'email' => $request->email,
 		'password' => $request->password,
 	]);
 
-	return redirect('/Beranda');
+	return redirect('/pemesanan');
 	}
 
 	public function hapus($id) {
